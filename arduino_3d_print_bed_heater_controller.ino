@@ -132,5 +132,6 @@ void displayError() // function to show 'Err' on the display if something goes w
   disp.writeDigitRaw(0,121); // "E"
   disp.writeDigitRaw(1,80); // "r"
   disp.writeDigitRaw(3,80); // "r"
+  disp.writeDigitRaw(4,0); // " "
   disp.writeDisplay(); // Write it out to the display.
 }
